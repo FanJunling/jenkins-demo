@@ -1,4 +1,4 @@
-FROM golang:1.8.0-alpine
+FROM golang:1.11-alpine3.9 
 
 ADD . /go/src/app
 
